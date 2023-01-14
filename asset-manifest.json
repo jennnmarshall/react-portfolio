@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.2f064abc.css",
+    "main.js": "/react-portfolio/static/js/main.ad585004.js",
+    "static/js/787.28cb0dcd.chunk.js": "/react-portfolio/static/js/787.28cb0dcd.chunk.js",
+    "static/media/subheader.png": "/react-portfolio/static/media/subheader.fb443818d63cd47ee203.png",
+    "static/media/jennprofile.png": "/react-portfolio/static/media/jennprofile.5ddde977bc86d54889b2.png",
+    "static/media/skittlescropped.jpg": "/react-portfolio/static/media/skittlescropped.94debde2814705a98973.jpg",
+    "static/media/lentilhardwickcropped.jpg": "/react-portfolio/static/media/lentilhardwickcropped.68d27d522f8044bc8b4d.jpg",
+    "static/media/nickcavecropped.jpg": "/react-portfolio/static/media/nickcavecropped.5201fa183241b266915c.jpg",
+    "static/media/cumberbatchcropped.jpg": "/react-portfolio/static/media/cumberbatchcropped.beedc58dc92b01f303ae.jpg",
+    "static/media/kermit8.png": "/react-portfolio/static/media/kermit8.99c9961385dbc61c8db0.png",
+    "static/media/boozehound text and pic.png": "/react-portfolio/static/media/boozehound text and pic.975c26c060d03552f1c7.png",
+    "index.html": "/react-portfolio/index.html",
+    "main.2f064abc.css.map": "/react-portfolio/static/css/main.2f064abc.css.map",
+    "main.ad585004.js.map": "/react-portfolio/static/js/main.ad585004.js.map",
+    "787.28cb0dcd.chunk.js.map": "/react-portfolio/static/js/787.28cb0dcd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2f064abc.css",
+    "static/js/main.ad585004.js"
+  ]
+}
