@@ -1,0 +1,259 @@
+/* my color palette */
+:root {
+  --jet: #333333;
+  --rhythm: #666a86;
+  --pale-cerulean: #95b8d1;
+  --dutch-white: #e8ddb5;
+  --light-pink: #edafb8;
+}
+
+/* dictates margins for the entire page */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* dictates colors and font for body element */
+body {
+  color: var(--jet);
+  background-color: var(--dutch-white);
+  font-family: "Josefin Sans", sans-serif;
+}
+
+/* header section; header set as flexbox */
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: var(--rhythm);
+  padding: 2%;
+}
+
+.header h1 {
+  font-size: 4.5rem;
+  color: var(--light-pink);
+  align-items: center;
+}
+
+/* nav-links also used in footer links */
+.nav-links {
+  list-style: none;
+}
+
+.nav-links li {
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: var(--dutch-white);
+  font-size: 2.5rem;
+  margin-top: 20px;
+}
+
+.subdiv {
+    position: relative;
+    overflow: hidden;
+}
+
+/* rainbow gradient subheader img */
+.subhead {
+    position: absolute;
+  width: 100vw;
+  top: 0;
+  bottom: 0;
+  object-fit: cover;
+  z-index: -1;
+}
+
+/* subtitle sitting inside subheader img */
+.subtitle {
+  line-height: 50px;
+  padding: 50px;
+  margin-left: 70%;
+  font-size: 2rem;
+  color: var(--rhythm);
+}
+
+/* about me section, linked in nav, in 3 sections using space-between */
+.about-me {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--pale-cerulean);
+  padding: 20px;
+  color: var(--rhythm);
+  width: 100%;
+  border-style: solid;
+  border-width: 9px;
+  border-color: var(--light-pink);
+}
+
+.about-me h2 {
+  padding-right: 5%;
+  border-right: solid;
+  border-color: var(--dutch-white);
+  font-size: 2.5rem;
+}
+
+/* paragraph is centered in page, text justified right */
+.about-me p {
+  font-size: 2rem;
+  padding-left: 3%;
+  text-align: left;
+}
+
+/* profile pic with border and box shadow */
+.about-me img {
+  display: flex;
+  justify-items: flex-end;
+  align-items: center;
+  width: 15vw;
+  height: 100%;
+  box-shadow: 0 4px 8px 0 var(--jet);
+  transition: 0.5s;
+  border-radius: 20px;
+  border: solid;
+  border-color: var(--dutch-white);
+}
+
+/* card section, main body */
+.main {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 5%;
+  flex-wrap: wrap;
+}
+
+/* primary card, bigger than the rest with box shadows and hover effects */
+.card-prime {
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+  padding: 0.5%;
+  margin: 0.5%;
+  border-style: solid;
+  border-width: 10px;
+  border-color: var(--light-pink);
+  box-shadow: 0 4px 8px 0 var(--jet);
+  transition: 0.3s;
+  border-radius: 7px;
+}
+
+.card-prime img {
+  width: 100%;
+}
+
+.card-prime:hover {
+  box-shadow: 0 8px 16px 0 var(--jet);
+  border-color: var(--pale-cerulean);
+  background-color: var(--pale-cerulean);
+}
+
+/* normal cards with box shadows and hover effects*/
+.card {
+  display: flex;
+  flex-wrap: wrap;
+  width: 25%;
+  padding: 0.5%;
+  margin: 0.5%;
+  border-style: solid;
+  border-width: 10px;
+  border-color: var(--light-pink);
+  box-shadow: 0 4px 8px 0 var(--jet);
+  transition: 0.3s;
+  border-radius: 7px;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 var(--jet);
+  border-color: var(--pale-cerulean);
+  background-color: var(--pale-cerulean);
+}
+
+.card img {
+  width: 100%;
+}
+
+.card-tag {
+  padding: 2px 16px;
+  background-color: var(--light-pink);
+  border-style: solid;
+  border-color: var(--light-pink);
+  width: 100%;
+}
+
+.card-tag a {
+  padding: 20px;
+  text-decoration: none;
+  color: var(--rhythm);
+  font-size: 1.5rem;
+}
+
+/* footer section, nearly the same as header */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  background-color: var(--rhythm);
+  padding: 2%;
+}
+
+.footer h3 {
+  font-size: 2.5rem;
+  color: var(--pale-cerulean);
+  align-items: center;
+}
+
+.footer h4 {
+  font-size: 2.5rem;
+  color: var(--light-pink);
+}
+
+/* ids for anchor element color change */
+#about-me-link:hover a {
+  color: var(--pale-cerulean)
+}
+
+#projects-link:hover a {
+  color: var(--pale-cerulean)
+}
+
+#contact-link:hover a {
+  color: var(--pale-cerulean)
+}
+
+#github:hover a {
+    color: var(--pale-cerulean)
+}
+
+#email:hover a {
+    color: var(--pale-cerulean)
+}
+
+#twitter:hover a {
+    color: var(--pale-cerulean)
+}
+
+/* media queries change display when viewport is resized */
+@media screen and (max-width: 992px) {
+  .card-prime {
+    width: 75%;
+  }
+  .card {
+    width: 25%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .card-prime {
+    width: 100%;
+  }
+  .card {
+    width: 50%;
+  }
+}
