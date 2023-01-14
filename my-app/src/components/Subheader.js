@@ -1,6 +1,6 @@
 import React from "react";
 import "../styles/style.css";
-import Image from "react-image";
+// import Image from "react-image";
 import headerimg from "../images/subheader.png"
 
 
