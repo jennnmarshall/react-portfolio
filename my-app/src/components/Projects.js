@@ -8,6 +8,7 @@ import nick from "../images/nickcavecropped.jpg";
 import skittle from "../images/skittlescropped.jpg";
 import lentil from "../images/lentilhardwickcropped.jpg";
 
+// render the project cards
 function Projects() {
   return (
     <main id="projects" className="main">

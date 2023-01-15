@@ -1,6 +1,7 @@
 import React from "react";
 import "../styles/style.css";
 
+// render just the header from the portfolio page, translate html into jsx
 function Header() {
   return (
     <header className="header">

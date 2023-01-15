@@ -3,6 +3,7 @@ import "../styles/style.css";
 // import Image from "react-image";
 import profileimg from "../images/jennprofile.png";
 
+// render only the about me section, translate the html into jsx
 function About() {
   return (
     <div id="about-me">

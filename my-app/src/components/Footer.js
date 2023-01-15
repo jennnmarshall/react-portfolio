@@ -1,7 +1,7 @@
 import React from "react";
 import "../styles/style.css";
 
-
+// render only the footer section, translate html into jsx
 function Footer() {
   return (
     <footer id="contact" className="footer">

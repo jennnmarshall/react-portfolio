@@ -3,7 +3,7 @@ import "../styles/style.css";
 // import Image from "react-image";
 import headerimg from "../images/subheader.png"
 
-
+// render only the subjeader, translate html into jsx
 function Subheader() {
   return (
     <div className="subdiv">
